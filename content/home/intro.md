@@ -18,6 +18,6 @@ author: admin
 #  css_class: fullscreen
 ---
 
-🐈 Hey! I'm **Alice**, a data scientist at Google.
+你好，我是一名天文学家！
 
 Check out my [CV](/about/) and blog posts below 🌈

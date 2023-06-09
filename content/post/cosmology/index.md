@@ -1,3 +1,4 @@
+---
 title: 字宙的年龄和尺度
 
 # Link this post with a project
@@ -35,6 +36,7 @@ categories:
   - Academic
   - Cosmology
 ---
+
 声明：本文仅作学习笔记使用，转载请注明来源，由于笔者水平有限，如有不当之处，敬请读者指正.
 
 #### 一、粗略地计算

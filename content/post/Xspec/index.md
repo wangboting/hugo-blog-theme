@@ -128,18 +128,24 @@ acisf13858_asol1.lis           pcadf456520092N001_asol1.fits
 ds9 acisf13858_repro_evt2.fits
 ```
 效果如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201026114303127.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ2NzUzNDA0,size_16,color_FFFFFF,t_70#pic_center)3.换颜色
+![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/1f21cc97-16e0-4714-a31e-619c36c9a985)
+
+3.换颜色
 点击**color**， 选**b**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201104174114946.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ2NzUzNDA0,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/3ae65857-d718-4d46-9e4d-377b8da92563)
+
 
 4.放大
 点击**zoom**，再选择**zoom 4**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201104173757588.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ2NzUzNDA0,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/d062e2cc-52fc-41b0-b4cd-1e1164043cc1)
+
 5.选源（src_region）.
 点击**edit**，后选择**region**，然后在源附近长按左键拖动，就会出现圆圈.这是src图效果
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201104174209851.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ2NzUzNDA0,size_16,color_FFFFFF,t_70#pic_center)6.选背景区域（bkg_region）
+![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/d8480691-84b3-4fd7-9cbb-9bad0f592906)
+6.选背景区域（bkg_region）
 远离亮点，选一个较大的区域作为背景.步骤同第**5**步
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201104174501822.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ2NzUzNDA0,size_16,color_FFFFFF,t_70#pic_center)
+![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/a2f9fcfb-153b-474f-b3bb-b53e72bbed16)
+
 ## 三、能谱拟合.
 1.仍然在ciao初始化的环境下.依次输入以下命令.
 
@@ -160,7 +166,8 @@ specextract
 sherpa
 ```
 进入界面如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201107130337648.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ2NzUzNDA0,size_16,color_FFFFFF,t_70#pic_center)依次输入以下内容：
+![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/b1d08047-083b-4055-8c30-0480014bd0a9)
+依次输入以下内容：
 
 ```bash
 load_pha('13858_grp.pi')
@@ -176,9 +183,10 @@ fit()
 plot_fit_delchi()
 plt.savefig('fit.jpg')
 ```
-我的拟合结果如下：![在这里插入图片描述](https://img-blog.csdnimg.cn/20201107132454980.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQ2NzUzNDA0,size_16,color_FFFFFF,t_70#pic_center)
+我的拟合结果如下：![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/abbbdead-6c91-4547-8d21-085286c39465)
 
-# 总结
+
+## 总结
 一、下载需要的数据.
 二、在ds9选区域.
 三、能谱拟合.

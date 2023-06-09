@@ -102,10 +102,10 @@ $$
 解:根据题意，我们有：
 
 $$
-\begin{aligned}
-Z_1 &= \alpha X + \beta Y, \\
-Z_2 &= \alpha X - \beta Y.
-\end{aligned}
+Z_1 = \alpha X + \beta Y, 
+$$
+$$
+Z_2 = \alpha X - \beta Y.
 $$
 
 因为 $X$ 和 $Y$ 相互独立，所以它们的协方差为零：
@@ -115,13 +115,38 @@ $$
 $$
 
 于是，我们可以得到 $Z_1$ 和 $Z_2$ 的均值和方差：
+$$
+\begin{split}
+E[Z_1] &= E[\alpha X + \beta Y] \\
+&= \alpha\mu + \beta\mu \\
+&= (\alpha + \beta)\mu,
+\end{split}
+$$
 
 $$
-\begin{aligned}
-E[Z_1] &= E[\alpha X + \beta Y] = \alpha\mu + \beta\mu = (\alpha + \beta)\mu, \\
-E[Z_2] &= E[\alpha X - \beta Y] = \alpha\mu - \beta\mu = (\alpha - \beta)\mu, \\
-\mathrm{Var}(Z_1) &= \mathrm{Var}(\alpha X + \beta Y) = \alpha^2 \mathrm{Var}(X) + \beta^2 \mathrm{Var}(Y) = \alpha^2\sigma^2 + \beta^2\sigma^2 = (\alpha^2 + \beta^2)\sigma^2, \\
-\mathrm{Var}(Z_2) &= \mathrm{Var}(\alpha X - \beta Y) = \alpha^2 \mathrm{Var}(X) + \beta^2 \mathrm{Var}(Y) = \alpha^2\sigma^2 + \beta^2\sigma^2 = (\alpha^2 + \beta^2)\sigma^2.
-\end{aligned}
+\begin{split}
+E[Z_2] &= E[\alpha X - \beta Y] \\
+&= \alpha\mu - \beta\mu \\
+&= (\alpha - \beta)\mu,
+\end{split}
 $$
+
+$$
+\begin{split}
+\mathrm{Var}(Z_1) &= \mathrm{Var}(\alpha X + \beta Y) \\
+&= \alpha^2 \mathrm{Var}(X) + \beta^2 \mathrm{Var}(Y) \\
+&= \alpha^2\sigma^2 + \beta^2\sigma^2 \\
+&= (\alpha^2 + \beta^2)\sigma^2,
+\end{split}
+$$
+
+$$
+\begin{split}
+\mathrm{Var}(Z_2) &= \mathrm{Var}(\alpha X - \beta Y) \\
+&= \alpha^2 \mathrm{Var}(X) + \beta^2 \mathrm{Var}(Y) \\
+&= \alpha^2\sigma^2 + \beta^2\sigma^2 \\
+&= (\alpha^2 + \beta^2)\sigma^2.
+\end{split}
+$$
+
 

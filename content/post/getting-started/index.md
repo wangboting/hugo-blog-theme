@@ -71,13 +71,18 @@ $$
         
 {{< /math >}}        
 根据变量替换法的公式，有：
-        
+
+{{< math >}}
+  
 $$
         p(u, v) = p(x(u,v), y(u,v)) \left| \frac{\partial(x,y)}{\partial(u,v)} \right|
         $$
-        
+
+{{< /math >}} 
  其中，$\left| \frac{\partial(x,y)}{\partial(u,v)} \right|$ 表示雅可比行列式，计算方法如下：
-        
+
+{{< math >}}
+
 $$
         \begin{vmatrix}
         \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\
@@ -90,13 +95,15 @@ $$
         \end{vmatrix}
         = \frac{(e^v - 1)y}{e^u + 1}.
         $$
-        
+{{< /math >}}         
 因此，我们可以得到：
-        
+{{< math >}}
+
 $$
         p(u, v) = p(ye^u, e^v - ye^u) \cdot \frac{(e^v - 1)y}{e^u + 1}.
         $$
         
+{{< /math >}}        
  最后，我们只需要将 $u = \ln(\frac{x}{y})$ 和 $v = \ln(x + y)$ 代入上式即可得到概率密度 $p(\ln(\frac{x}{y}), \ln(x + y))$。
  
 #### 3. $X\sim𝑁(𝜇, 𝜎^2)$，$Y\sim𝑁(𝜇, 𝜎^2)$且 $X $和 $Y$ 相互独立, 求$𝑍_1 = 𝛼𝑋 + 𝛽𝑌$和$𝑍_2 =𝛼𝑋 − 𝛽𝑌$的相关系数$(𝛼, 𝛽 ≠ 0)$。
@@ -117,6 +124,9 @@ $$
 $$
 
 于是，我们可以得到 $Z_1$ 和 $Z_2$ 的均值和方差：
+
+{{< math >}}
+
 $$
 \begin{split}
 E[Z_1] &= E[\alpha X + \beta Y] \\
@@ -125,6 +135,10 @@ E[Z_1] &= E[\alpha X + \beta Y] \\
 \end{split}
 $$
 
+{{< /math >}}
+
+{{< math >}}
+
 $$
 \begin{split}
 E[Z_2] &= E[\alpha X - \beta Y] \\
@@ -132,6 +146,10 @@ E[Z_2] &= E[\alpha X - \beta Y] \\
 &= (\alpha - \beta)\mu,
 \end{split}
 $$
+
+{{< /math >}}
+
+{{< math >}}
 
 $$
 \begin{split}
@@ -142,6 +160,10 @@ $$
 \end{split}
 $$
 
+{{< /math >}}
+
+{{< math >}}
+
 $$
 \begin{split}
 \mathrm{Var}(Z_2) &= \mathrm{Var}(\alpha X - \beta Y) \\
@@ -151,4 +173,5 @@ $$
 \end{split}
 $$
 
+{{< /math >}}
 

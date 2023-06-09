@@ -40,7 +40,9 @@ categories:
   - 天文统计
   - 天文
 ---
-<script>
+<html>
+  <head>
+    <script>
         MathJax = {
           tex: {
             inlineMath: [['$', '$'], ['\\(', '\\)']]
@@ -51,6 +53,8 @@ categories:
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
         </script>
   <meta charset="UTF-8">
+   </head>
+</html>
 ### 1. 有两个测量量 $A$ 和 $B$，测量误差分别为 $\sigma_A$ 和 $\sigma_B$，它们的相关系数为 $\rho$，问 $f=3A+2B$ 的误差是多少？
 解:根据误差传递公式，可以得到 $f$ 的误差为：
         $$

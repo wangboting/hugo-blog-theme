@@ -73,8 +73,8 @@ ul.network-icon .big-icon {
 }
 */
 .home-section > .content {
-  width: 100%;
-  max-width: 100%;
+  width: 100em;
+  max-width: calc(100% - 2em);
   margin: 0 auto;
 }
 

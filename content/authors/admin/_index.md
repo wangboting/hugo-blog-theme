@@ -9,12 +9,6 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/wbtynu
-  - icon: instagram
-    icon_pack: fab
-    link: https://instagram.com/geocushen
-organizations:
-  - name: 腾讯
-    url: ""
 superuser: true
 status:
   icon: ☕️

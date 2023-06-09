@@ -32,8 +32,7 @@ categories:
 **前言：**
 为了记录正在学习使用钱德拉望远镜的天文软件包**ciao**，写下这篇博客.
 如有错误之处及建议，欢迎到评论区讨论.
-heasoft的安装请参看：https://blog.csdn.net/qq_46753404/article/details/117304662?utm_source=app&app_version=4.7.1&code=app_1562916241&uLinkId=usr1mkqgl919blen
-
+heasoft的安装请参看：[HEAsoft安装教程](https://blog.csdn.net/qq_46753404/article/details/117304662)
 
 ## 一.下载样本数据
 

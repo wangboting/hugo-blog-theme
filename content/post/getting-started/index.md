@@ -185,15 +185,15 @@ $$
 \mathrm{Cov}(Z_1, Z_2) &= E[(Z_1 - E[Z_1])(Z_2 - E[Z_2])] \\
 &= E[(\alpha X + \beta Y - (\alpha + \beta)\mu)(\alpha X - \beta Y - (\alpha - \beta)\mu)] \\
 &= E[\alpha^2 X^2 - \alpha^2 X(\alpha - \beta)\mu + \alpha\beta XY\\
-&- \alpha\beta Y(\alpha + \beta)\mu  - \alpha(\alpha - \beta)X\mu \\
-&\quad + (\alpha - \beta)\alpha\beta\mu^2 + \alpha\beta XY \\
-&\quad - \beta^2 Y(\alpha - \beta)\mu] \\
+- \alpha\beta Y(\alpha + \beta)\mu  - \alpha(\alpha - \beta)X\mu \\
+ + (\alpha - \beta)\alpha\beta\mu^2 + \alpha\beta XY \\
+ - \beta^2 Y(\alpha - \beta)\mu] \\
 &= E[\alpha^2 X^2] - (\alpha + \beta)\mu E[\alpha X] - (\alpha - \beta)\mu E[\alpha X] \\ 
-&\quad + (\alpha^2 - \beta^2)\mu^2 + E[\alpha\beta XY] - (\alpha + \beta)\mu E[\beta Y] \\
-&\quad - (\alpha - \beta)\mu E[-\beta Y] - (\alpha - \beta)\mu E[\alpha X] \\
-&\quad + (\alpha^2 - \beta^2)\mu^2 + E[\alpha\beta XY]  - (\alpha + \beta)\mu E[\alpha X] \\
-&\quad - (\alpha - \beta)\mu E[\beta Y] + (\alpha^2 - \beta^2)\mu^2 \\
-&\quad + E[\beta^2 Y^2] - (\alpha - \beta)\mu E[\beta Y] \\
+ + (\alpha^2 - \beta^2)\mu^2 + E[\alpha\beta XY] - (\alpha + \beta)\mu E[\beta Y] \\
+- (\alpha - \beta)\mu E[-\beta Y] - (\alpha - \beta)\mu E[\alpha X] \\
+ + (\alpha^2 - \beta^2)\mu^2 + E[\alpha\beta XY]  - (\alpha + \beta)\mu E[\alpha X] \\
+ - (\alpha - \beta)\mu E[\beta Y] + (\alpha^2 - \beta^2)\mu^2 \\
+ + E[\beta^2 Y^2] - (\alpha - \beta)\mu E[\beta Y] \\
 &= \alpha^2 \mathrm{Var}(X) - \alpha(\alpha + 2\beta)\mu^2 + \alpha\beta E[XY]\\
 - \beta(\alpha + 2\beta)\mu^2 + \beta^2\mathrm{Var}(Y) \\
 &= \alpha^2\sigma^2 - \beta^2\sigma^2.

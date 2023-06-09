@@ -1,5 +1,5 @@
 ---
-title: 字宙的年龄和尺度
+title: 光度距离与红移
 
 # Link this post with a project
 projects: []

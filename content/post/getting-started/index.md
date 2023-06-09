@@ -183,20 +183,20 @@ $$
 $$
 \begin{aligned}
 \mathrm{Cov}(Z_1, Z_2) &= E[(Z_1 - E[Z_1])(Z_2 - E[Z_2])] \\
-&= E[(\alpha X + \beta Y - (\alpha + \beta)\mu)(\alpha X - \beta Y - (\alpha - \beta)\mu)] \\
-&= E[\alpha^2 X^2 - \alpha^2 X(\alpha - \beta)\mu + \alpha\beta XY\\
+= E[(\alpha X + \beta Y - (\alpha + \beta)\mu)(\alpha X - \beta Y - (\alpha - \beta)\mu)] \\
+= E[\alpha^2 X^2 - \alpha^2 X(\alpha - \beta)\mu + \alpha\beta XY\\
 - \alpha\beta Y(\alpha + \beta)\mu  - \alpha(\alpha - \beta)X\mu \\
  + (\alpha - \beta)\alpha\beta\mu^2 + \alpha\beta XY \\
  - \beta^2 Y(\alpha - \beta)\mu] \\
-&= E[\alpha^2 X^2] - (\alpha + \beta)\mu E[\alpha X] - (\alpha - \beta)\mu E[\alpha X] \\ 
+= E[\alpha^2 X^2] - (\alpha + \beta)\mu E[\alpha X] - (\alpha - \beta)\mu E[\alpha X] \\ 
  + (\alpha^2 - \beta^2)\mu^2 + E[\alpha\beta XY] - (\alpha + \beta)\mu E[\beta Y] \\
 - (\alpha - \beta)\mu E[-\beta Y] - (\alpha - \beta)\mu E[\alpha X] \\
  + (\alpha^2 - \beta^2)\mu^2 + E[\alpha\beta XY]  - (\alpha + \beta)\mu E[\alpha X] \\
  - (\alpha - \beta)\mu E[\beta Y] + (\alpha^2 - \beta^2)\mu^2 \\
  + E[\beta^2 Y^2] - (\alpha - \beta)\mu E[\beta Y] \\
-&= \alpha^2 \mathrm{Var}(X) - \alpha(\alpha + 2\beta)\mu^2 + \alpha\beta E[XY]\\
+= \alpha^2 \mathrm{Var}(X) - \alpha(\alpha + 2\beta)\mu^2 + \alpha\beta E[XY]\\
 - \beta(\alpha + 2\beta)\mu^2 + \beta^2\mathrm{Var}(Y) \\
-&= \alpha^2\sigma^2 - \beta^2\sigma^2.
+= \alpha^2\sigma^2 - \beta^2\sigma^2.
 \end{aligned}
 $$
 
@@ -214,7 +214,8 @@ $$
 
 {{< /math >}}
 
-#### 4. $𝑦 = {𝑥^{−1}, 𝑥 > 0;0, 𝑥≤0}$是一个概率密度函数吗，为什么?在不显著改变函数在$𝑥 > 0$范围内的主要走向的情况下，如何将它改造成一个概率密度函数，并简单说明改造后的函数为什么是概率密度函数。
+#### 4. {{< math >}}$y = \begin{cases}𝑦 = 𝑥^{−1}, &𝑥 > 0, \\0, 𝑥≤0.\end{cases}${{< /math >}}是一个概率密度函数吗，为什么?在不显著改变函数在$𝑥 > 0$范围内的主要走向的情况下，如何将它改造成一个概率密度函数，并简单说明改造后的函数为什么是概率密度函数。
+
 
 解：
     这个函数不是概率密度函数，因为它在$x=0$处不连续，而且对于某些$x$值，它的取值可以大于1。

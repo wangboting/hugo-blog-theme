@@ -44,7 +44,7 @@ categories:
 
 变量提取后的值.
 
-格式：echo [字符串]，echo $\$$变量
+格式：echo [字符串]，echo 变量
 
 若字符串中出现以下字符，则特别加以处理，而不会将它当成一般文字输出：
 ```latex
@@ -233,9 +233,9 @@ chmod的语法有两种模式：
 
 例如：   
 
-第一种：chmod u+rwx xxx 或  chmod u=rwx xxx               chmod u+rwx,g=r xxx               chmod u+rwx,g=r,o= xxx       
+第一种：chmod u+rwx xxx 或chmod u=rwx xxx或chmod u+rwx,g=r xxx或chmod u+rwx,g=r,o= xxx       
 
-第二种：chmod 700 xxx               chmod 740 xxx               chmod 741 xxx                   (r=4,w=2,x=1)
+第二种：chmod 700 xxx，chmod 740 xxx，chmod 741 xxx(r=4,w=2,x=1)
 
 14.chown
 
@@ -556,7 +556,7 @@ sudo apt install finger
     -a：将 /etc/fstab 中定义的所有档案系统挂上。
 ```
 <文件系统类型> 指定设备的文件系统类型，常见的有：          
-
+```latex
 ext3         linux目前常用的文件系统          
 
 msdos         MS-DOS的fat，就是fat16          
@@ -572,7 +572,7 @@ ntfs        windows NT 2000的文件系统          
 hpfs         OS/2文件系统          
 
 auto         自动检测文件系统
-
+```
 46.umount
 
 说明：用于卸载已安装的某个文件系统.
@@ -628,7 +628,10 @@ auto         自动检测文件系统
 
 说明：Linux bzip2命令是.bz2文件的压缩程序，bzip2采用新的压缩演算法，压缩效果比传统的LZ77/LZ78压缩演算法来得好，若没有加上任何参数，bzip2压缩完文件后会产生.bz2的压缩文件，并删除原始的文件.
 
-格式： bzip2 [-cdfhkLstvVz][--repetitive-best][--repetitive-fast][- 压缩等级][要压缩的文件]
+格式： 
+```bash
+bzip2 [-cdfhkLstvVz][--repetitive-best][--repetitive-fast][- 压缩等级][要压缩的文件]
+```
 ```latex
 -c或--stdout 将压缩与解压缩的结果送到标准输出。
 -d或--decompress 执行解压缩。

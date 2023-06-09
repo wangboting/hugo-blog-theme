@@ -99,7 +99,7 @@ ul.network-icon .big-icon {
   }
 }
 */
-
+/*
 @media (min-width: 1200px) {
   .home-section .container {
     max-width: 880px;
@@ -108,6 +108,27 @@ ul.network-icon .big-icon {
 @media (min-width: 992px) {
   .home-section .container {
     max-width: 880px;
+  }
+}
+*/
+/* Large devices (laptops/desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .home-section .container {
+    max-width: 880px;
+  }
+}
+
+/* Medium devices (tablets, 600px and up) */
+@media (min-width: 600px) and (max-width: 1199px) {
+  .home-section .container {
+    max-width: 600px;
+  }
+}
+
+/* Small devices (phones, 599px and below) */
+@media (max-width: 599px) {
+  .home-section .container {
+    max-width: 100%;
   }
 }
 

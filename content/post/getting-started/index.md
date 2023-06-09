@@ -182,7 +182,7 @@ $$
 
 $$
 \begin{aligned}
-\mathrm{Cov}(Z_1, Z_2) &= E[(Z_1 - E[Z_1])(Z_2 - E[Z_2])] \\
+\mathrm{Cov}(Z_1, Z_2) = E[(Z_1 - E[Z_1])(Z_2 - E[Z_2])] \\
 = E[(\alpha X + \beta Y - (\alpha + \beta)\mu)(\alpha X - \beta Y - (\alpha - \beta)\mu)] \\
 = E[\alpha^2 X^2 - \alpha^2 X(\alpha - \beta)\mu + \alpha\beta XY\\
 - \alpha\beta Y(\alpha + \beta)\mu  - \alpha(\alpha - \beta)X\mu \\

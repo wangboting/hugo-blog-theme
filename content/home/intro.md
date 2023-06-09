@@ -18,6 +18,4 @@ author: admin
 #  css_class: fullscreen
 ---
 
-你好，我是一名天文学家！
-
-Check out my [CV](/about/) and blog posts below 🌈
+你好，我是一名天体物理学家！

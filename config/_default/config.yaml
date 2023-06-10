@@ -24,7 +24,8 @@ cascade:
     header:
       navbar:
         enable: false
-
+    params:
+      word_count: true
 ############################
 ## LANGUAGE
 ############################

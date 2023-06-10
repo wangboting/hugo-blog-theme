@@ -106,3 +106,11 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+design:
+  background:
+   # video:
+    audio:
+      # Name of video in `assets/media/`.
+      filename: 漠河舞厅.mp3
+      # Post-processing: flip the video horizontally?
+      flip: false

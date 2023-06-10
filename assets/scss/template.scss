@@ -167,18 +167,5 @@ background-music {
   opacity: 0.5;
 }
 
-/* ... 其他样式规则 ... */
-.card {
-    display: flex;
-    flex-direction: column;
-}
 
-.card__cover {
-    height: 20rem;
-    width: 100%;
-}
-
-.card__content {
-    /* Take available height */
-    flex: 1;
 

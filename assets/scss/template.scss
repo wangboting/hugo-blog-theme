@@ -85,6 +85,7 @@ ul.network-icon .big-icon {
 .home-section header {
   margin-bottom: 1em;
 }
+{{ .WordCount }} words
 
 // Narrower container for Hello World sections (primarily Blank widget content).
 /*

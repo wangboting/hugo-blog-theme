@@ -39,9 +39,9 @@ tags:
 categories:
   - 天文统计
   - 天文
-<audio src="/assets/media/漠河舞厅.mp3"></audio>
 ---
 
+<audio src="/assets/media/漠河舞厅.mp3"></audio>
 #### 1. 有两个测量量 $A$ 和 $B$，测量误差分别为 $\sigma_A$ 和 $\sigma_B$，它们的相关系数为 $\rho$，问 $f=3A+2B$ 的误差是多少？
 
 解:根据误差传递公式，可以得到 $f$ 的误差为：

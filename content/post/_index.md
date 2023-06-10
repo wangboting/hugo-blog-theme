@@ -4,7 +4,7 @@ cms_exclude: true
 
 # View.
 #view: compact
-view: List
+view: full
 flip_alt_rows: false
 
 # Optional header image (relative to `assets/media/` folder).

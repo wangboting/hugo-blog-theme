@@ -159,7 +159,7 @@ ul.network-icon .big-icon {
 }
 /* ... 其他样式规则 ... */
 
-#background-music {
+background-music {
   position: fixed;
   top: 0;
   left: 0;
@@ -168,3 +168,17 @@ ul.network-icon .big-icon {
 }
 
 /* ... 其他样式规则 ... */
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__cover {
+    height: 20rem;
+    width: 100%;
+}
+
+.card__content {
+    /* Take available height */
+    flex: 1;
+

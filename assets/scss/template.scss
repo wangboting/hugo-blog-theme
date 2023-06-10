@@ -157,3 +157,14 @@ ul.network-icon .big-icon {
 .wg-about .portrait-title h3 {
   font-size: 0.8rem;
 }
+/* ... 其他样式规则 ... */
+
+#background-music {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* ... 其他样式规则 ... */

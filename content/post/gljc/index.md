@@ -36,7 +36,6 @@ categories:
   - 统计学
   - 概率论
 ---
-<div class="full-screen">
  {{<audio 1488737309>}}
   
 ### 一、概率基础知识
@@ -144,5 +143,3 @@ $$\overbrace{P(B \mid A)}^{\text {posterior }}=\frac{\overbrace{P(A \mid B)}^{\t
 ![image (10)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/7fbdc2c4-2468-4e53-8346-aa69750ca0e8)
 
 ![image (11)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/9f12ce85-4b75-4998-89e1-9134e0cfc1fc)
-  
-</div>

@@ -124,3 +124,22 @@ $$
 上面公式等号左面称为后验概率（posterior probability），等号右边 分子上第一项称为似然概率 (likelihood) ，第二项称为先验概率 (prior probability), 而分母上的项称为证据 (evidence), 即
 
 $$\overbrace{P(B \mid A)}^{\text {posterior }}=\frac{\overbrace{P(A \mid B)}^{\text {likelihood }} \overbrace{P(B)}^{\text {prior }}}{\underbrace{P(A)}_{\text {evidence }}}$$
+
+#### 二、实例
+
+![image (6)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/b3d93ca2-9d88-4a53-a0ca-3ef879365def)
+
+
+![image (7)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/27f2721c-a4f7-4957-ad03-87062b70f579)
+
+
+![image (8)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/a55ae45b-9559-4fd7-96b6-e3de075c0dbf)
+
+
+![image (9)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/97a1e4ad-68e9-4f46-9b39-bcff5a2a645a)
+
+
+![image (10)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/7fbdc2c4-2468-4e53-8346-aa69750ca0e8)
+
+![image (11)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/9f12ce85-4b75-4998-89e1-9134e0cfc1fc)
+

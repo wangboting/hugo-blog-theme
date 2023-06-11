@@ -38,30 +38,11 @@ categories:
 ---
 
 ### 一、概率基础知识
-![image](https://github.com/wangboting/hugo-blog-theme/assets/71454203/6fa0cc5f-ab1c-4615-a460-81036bebd2b0)
 
-![image (1)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/424b8201-bb66-4150-be95-feeedb98875a)
-
-![image (2)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/ee14a25b-f44e-4dd1-bc4f-7e8ecedf9977)
-
-![image (3)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/3efdab80-ea8e-4477-84ae-bf4787a31241)
-
-![image (4)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/70fcf565-11ff-4651-b8e5-5e74cae0d1e4)
-
-![image (5)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/c7845a80-7d86-4ed9-87f4-e009aaf5e942)
-
-### 二、实例
-
-![image (6)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/fe00a05d-e561-4498-af53-7c0bb92a0492)
-
-![image (7)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/47cf93b6-824b-47ba-af11-c54545ea63cf)
-
-![image (8)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/e53f105a-a43e-49a9-8ba4-39a2d10a0458)
-
-![image (9)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/729f5191-3469-4d1d-9c99-e43936152468)
-
-![image (10)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/af5dadf2-3387-4dfe-a694-b9b53ff1a35d)
-
-![image (11)](https://github.com/wangboting/hugo-blog-theme/assets/71454203/300edbf8-77e8-4cfd-aeb5-2a16a35f3fe5)
-
+定义：（概率）设  $\mathrm{E}$  是随机实验,  $\mathrm{S}$  是它的样本空间, 对于  $\mathrm{E}$  中的每一事 件  $\mathrm{A}$  赋予一个实数, 记为  $P(A)$ , 称为事件  $\mathrm{A}$  的概率，如果集合函数  $P\left({ }^{\circ}\right)$  满足:
+1 非负性：对任意  $\mathrm{A}$ , 有  $P(A) \geq 0$ ;
+2 规范性：对于必然事件  $\mathrm{S}, P(S)=1$ ;
+3 可列可加性：设  $A_{1}, A_{2}, \ldots$  是两两互不相容的事件, 即  $A_{i} A_{j}=\phi$, $i \neq j$ ,  $i, j=1,2, \ldots$ , 则有  $P\left(A_{1} \bigcup A_{2} \bigcup \ldots\right)=P\left(A_{1}\right)+P\left(A_{2}\right)+\ldots$ 
+概率的性质:
+性质 1:  $P(\phi)=0$ .
 

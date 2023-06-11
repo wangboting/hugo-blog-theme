@@ -5,7 +5,7 @@ title: 第一章 概率论基础
 projects: []
 
 # Date published
-#date: '2020-12-13T00:00:00Z'
+date: '2023-06-11'
 
 # Date updated
 #lastmod: '2020-12-13T00:00:00Z'

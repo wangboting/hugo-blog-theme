@@ -19,4 +19,4 @@ author: admin
 #  css_class: fullscreen
 ---
 
-你好，我是一名天体物理学家！
+你好，我是Boting Wang，一名天体物理学家。

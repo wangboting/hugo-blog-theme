@@ -20,6 +20,8 @@ cascade:
     commentable: true
     show_related: true
     show_breadcrumb: true
+    sort_by: date
+    sort_order: desc
     share: true
     header:
       navbar:

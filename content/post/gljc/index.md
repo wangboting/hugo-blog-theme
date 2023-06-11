@@ -79,7 +79,7 @@ ii)  $B_{1} \bigcup B_{2} \bigcup \ldots \bigcup B_{n}=S $
 则称   $B_{1}, B_{2}, \ldots, B_{n} $  为样本空间   $S $  上的一个划分。
 
 定理：设实验   $E $  上的样本空间为  $ S, A  $ 为  $ E  $ 的事件,   $B_{1}, B_{2}, \ldots, B_{n} $  是   $S   $上的一个划分, 且  $ P\left(B_{i}\right)>0,(i=1,2, \ldots, n) $ , 则
-
+{{< math >}}
 $$
 \begin{split}
 P(A) = & P(A \mid B_1) P(B_1) + \\
@@ -88,7 +88,7 @@ P(A) = & P(A \mid B_1) P(B_1) + \\
        & P(A \mid B_n) P(B_n)
 \end{split}
 $$
-
+{{< /math >}}
 
 这个公式被称为全概率公式。
 
@@ -98,7 +98,8 @@ $$
 
 定理：若随机事件  $ A $  和  $ B $相互独立，则下列各对随机事件也相互独立：   $A  $ 和  $ \bar{B}, \bar{A}   $和  $ B, \bar{A}  和  \bar{B}  $ 。
 如果有三个随机事件   $A, B, C $ , 它们相互独立，当且仅当
- $$
+{{< math >}}
+$$
 \begin{split}
 P(A B)=P(A) P(B), \\
 P(A C)=P(A) P(C), \\
@@ -106,7 +107,7 @@ P(B C)=P(B) P(C), \\
 P(A B C)=P(A) P(B) P(C) .
 \end{split}
 $$
-
+{{< /math >}}
 定理：设实验  $E $ 的样本空间为 $ S, A $ 为  $E$  的随机事件,$  B_{1}, B_{2}, \ldots, B_{n}$  是  $S$  上的一个划分, 且 $ P(A)>0, P\left(B_{i}\right)>0,(i=1,2, \ldots, n)$ , 则
 
 $$P\left(B_{i} \mid A\right)=\frac{P\left(A \mid B_{i}\right) P\left(B_{i}\right)}{\sum_{j=1}^{n} P\left(A \mid B_{j}\right) P\left(B_{j}\right)}$$
